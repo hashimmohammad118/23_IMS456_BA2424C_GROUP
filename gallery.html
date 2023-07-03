@@ -1,0 +1,179 @@
+<html> 
+    <link rel="stylesheet" type="text/css" href="index.css"> 
+<head> 
+<title> Gallery </title> 
+</head> 
+<style> 
+    *  
+{ 
+    box-sizing: border-box; 
+  } 
+   
+  body { 
+    font-family: Arial; 
+    padding: 10px; 
+    background: grey; 
+  } 
+   
+  /* Header/Blog Title */ 
+  .header { 
+    padding: 30px; 
+    text-align: center; 
+    background: #E5E4E2; 
+  } 
+   
+  .header h1 { 
+    font-size: 50px; 
+  } 
+   
+  /* Style the top navigation bar */ 
+  .topnav { 
+    overflow: hidden; 
+    background-color: black; 
+  } 
+   
+  /* Style the topnav links */ 
+  .topnav a { 
+    float: left; 
+    display: block; 
+    color: #f2f2f2; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+  } 
+   
+  /* Change color on hover */ 
+  .topnav a:hover { 
+    background-color: #ddd; 
+    color: #757575; 
+  } 
+   
+  /* Create two unequal columns that floats next to each other */ 
+  /* Left column */ 
+  .leftcolumn {    
+    float: left; 
+    width: 75%; 
+  } 
+   
+  /* Right column */ 
+  .rightcolumn { 
+    float: left; 
+    width: 25%; 
+    background-color: #f1f1f1; 
+    padding-left: 20px; 
+     
+  } 
+   
+  /* Fake image */ 
+  .fakeimg { 
+    background-color: #aaa; 
+    width: 100%; 
+    padding: 20px; 
+  } 
+   
+  /* Add a card effect for articles */ 
+  .card { 
+    background-color: #E5E4E2; 
+    padding: 20px; 
+    margin-top: 20px; 
+  } 
+   
+  /* Clear floats after the columns */ 
+  .row:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+  } 
+   
+  /* Footer */ 
+  .footer { 
+    padding: 20px; 
+    text-align: center; 
+    background: #ddd; 
+    margin-top: 20px; 
+  } 
+ 
+  table, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+  } 
+  h1 { 
+        color: black; 
+  } 
+   
+   
+   
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */ 
+  @media screen and (max-width: 800px) { 
+    .leftcolumn, .rightcolumn {    
+      width: 100%; 
+      padding: 0; 
+    } 
+  } 
+   
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */ 
+  @media screen and (max-width: 400px) { 
+    .topnav a { 
+      float: none; 
+      width: 100%; 
+    } 
+} 
+ 
+</style> 
+<body> 
+ 
+<div class="header"> 
+  <h1> <i> Hello, This Is Me!!! </i> </h1> 
+  <p> <i> Hashim Bin Mohammad </i> </p> 
+ 
+   <marquee behavior="alternate" direction="left" scrollamount="7">  
+  <font face="monospace" color="black" size="3"> Welcome to my world </font>  
+   </marquee> 
+   
+</div> 
+ 
+<div class="topnav"> 
+  <a href="file:///C:/Users/User%20Mac22/Desktop/ims%20invidual%20assignment/inv2/index.html"> HOME </a>  
+  <a href="file:///C:/Users/User%20Mac22/Desktop/ims%20invidual%20assignment/inv2/biodata.html">BIODATA</a> 
+  <a href="file:///C:/Users/User%20Mac22/Desktop/ims%20invidual%20assignment/inv2/education.html">EDUCATION</a> 
+  <a href="file:///C:/Users/User%20Mac22/Desktop/ims%20invidual%20assignment/inv2/achievement.html" >ACHIEVEMENT</a> 
+  <a href="file:///C:/Users/User%20Mac22/Desktop/ims%20invidual%20assignment/inv2/experience.html" >EXPERIENCE</a> 
+  <a href="file:///C:/Users/User%20Mac22/Desktop/ims%20invidual%20assignment/inv2/family.html" >FAMILY</a> 
+  <a href="file:///C:/Users/User%20Mac22/Desktop/ims%20invidual%20assignment/inv2/gallery.html" >GALLERY</a> 
+  <iframe style="float:right" src="https://free.timeanddate.com/clock/i8mtrahq/n3533/tlmy40/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="205" height="60"></iframe> 
+</div> 
+ 
+<div class="card"> 
+     <center> <font color="black" size="150" face="castellar"> My Gallery </font> <center> <br> 
+   
+  <center> <a href="gambar\skate.jpg"> <img src="gambar\skate.jpg" width="500" height="400" border="5"> </a> </center> 
+      <center> <p> <b>Me with skateboard</b> </p> <br> 
+               <p> At Cameron Highland  </p> 
+               </center> 
+</div> 
+ 
+<div>
+class="card"> 
+     <center> <a href="gambar\420.jpg"> <img src="gambar\420.jpg" width="450" height="450" border="5"> </a> </center> 
+      <center> <p> <b>Fourtwnty Concert</b> </p> <br> 
+               <p> During Concert  </p> 
+               </center> 
+</div> 
+ 
+<div class="card"> 
+     <center> <a href="gambar\hausboom.jpg"> <img src="gambar\hausboom.jpg" width="500" height="400" border="5"> </a> </center> 
+      <center> <p> <b> Me vibing at Hausboom Music 2022</b> </p> <br> 
+               <p> During Concert  </p> 
+               </center> 
+</div> 
+ 
+<div class="footer"> 
+  <p>Copyright © 2023 Hashim Bin Mohammad. <br> 
+ 
+      Recommended Browser Google Chrome Resolution 1366x768. <br> 
+ 
+All Rights Reserved.</p> 
+</div> 
+ 
+</body> 
+</html>
